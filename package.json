@@ -1,0 +1,20 @@
+{
+  "name": "telegram-bot-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Nothing to build'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^3.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "@prisma/client": "latest"
+  },
+  "devDependencies": {
+    "prisma": "latest"
+  }
+}
